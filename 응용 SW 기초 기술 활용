@@ -1,0 +1,86 @@
+응용SW기초기술활용 - 핵심정리
+응용SW기초기술활용
+
+1. 운영체제 종류
+컴퓨터 시스템의 자원들(CPU, 주기억장치, 보조기억장치, 파일 등)을 효율적으로 관리하며, 사용자가 컴퓨터를 편리하고 효과적으로 사용할 수 있도록 인터페이스를 제공하는 시스템 소프트웨어
+종류
+Windows
+UNIX
+LINUX
+MacOS
+MS-DOS
+
+2. 메모리 관리
+기억장치의 계층 구조(산 형태 순서 정렬)
+레지스터
+캐시 기억장치
+주기억장치
+보조기억장치
+기억장치 관리 전략
+Fetch
+Placement
+Replacement
+주기억장치 할당 기법
+연속 할당
+분산 할당
+가상기억장치의 구현 기법
+페이징
+세그먼테이션
+페이지 교체 알고리즘 종류
+FIFO
+LRU
+NUR
+OPT
+LFU
+SCR
+가상기억장치의 기타 관리
+Locality
+Working Set
+Thrashing
+
+3. 프로세스 스케줄링
+프로세스
+프로세서에 의해 처리되는 사용자 프로그램
+프로세서
+CPU
+처리기
+스레드
+프로세스 내에서 작업 단위로서 시스템의 여러 자원을 할당 받아 실행하는 프로그램의 단위
+스케줄링
+프로세스가 생성되어 실행될 때 필요한 시스템의 여러 자원ㅇ르 해당 프로세스에 할당하는 작업
+비선점 스케줄링의 종류
+FIFO(FCFS)
+SJF
+HRN
+선점 스케줄링의 종류
+RR
+SRT
+MLQ
+MFQ
+
+4. 환경변수
+시스템 소프트웨어 동작에 영향을 미치는 동적인 값들의 모임
+윈도우 환경변수
+%APPDATA%, %COMSPEC%, %HOMEPATH%, %PATH%, %PATHEXT%, %PROGRAMFILES%, %SYSTEMDRIVE%, %SYSTEMROOT% , %USERNAME%, %USERPROFILE%
+유닉스 환경변수
+DISPLAY , HOME, LANG , MAIL, PATH , PS1, PWD , TERM, $USER
+
+5. Shell Script
+GUI
+Graphic User Interface
+마우스로 아이콘이나 메뉴를 선택하여 작업
+CLI
+Command Line Interface
+키보드로 명령어를 직접 입력하여 작업
+
+
+UNIX와 LINUX 기본 명령어
+명령어	기능
+cat	파일 내용을 화면에 표시
+chdir	디렉토리 위치 변경
+chmod	파일의 사용 허가 지정
+chown	소유자 변경
+cp	파일 복사
+getpid	자신의 프로세스 아이디를 얻음
+ls	현재 디렉토리 내의 파일 목록을 표시
+rm	파일 삭제
