@@ -1,0 +1,32 @@
+
+package Colldection;
+
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int i ;
+		Scanner s = new Scanner(System.in);
+		i = s.nextInt();
+		recursive(i);
+		
+	}
+	
+	static int recursive (int n) {
+		
+		int i ;
+		if (n<1)
+			return 2;
+		
+		else {
+			i = (2*recursive(n-1)) +1;
+			System.out.println(i);
+			return i;
+			
+		}
+		
+		
+	}
+	
