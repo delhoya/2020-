@@ -1,3 +1,62 @@
+
+
+ㅁ 연계 메커니즘
+
+송신시스템 및 송신모듈
+수신시스템 및 수신모듈
+
+
+직접 연계방식
+DB LINK
+API (APPLICATION PROGRAMMING INTERFACE)
+DB CONNECTION
+JDBC(JAVA DATABASE CONNECTIVITY)
+
+간접 연계방식
+연계솔루션 : EAI 서버
+ESB (ENTERPRISE SERVICE BUS)
+SOCKET
+WEB SERVICE
+
+ㅁ 연계메커니즘 구성
+
+데이터추출
+코드매핑 , 데이터변환 
+인터페이스 테이블 , 파일생성
+로그기록
+연계서버
+전송
+운영DB에 연계데이터반영
+
+ㅁ 데이터 암호화 알고리즘
+ARIA
+DES
+AES
+RSA
+
+ㅁ 연계모듈 구현환경
+EAI (ENTERPRISE APPLICATION INTEGRATION)
+ POINT TO POINT
+ HUB & SPOKE
+ MESSAGE BUS(ESB)
+ HYBRID
+
+ㅁWEB SERVICE
+XML 
+HTML 보완 다목적 마크업 언어 
+SOAP (SIMPLE OBJECT ACCESS PROTOCOL)
+XML 기반의 메세지 교환 프로토콜
+UDDI (UNIVERSAL DESCRIPTION DISCOVERY AND INTEGRATION)
+WSDL 등록 서비스 제공
+WSDL (WEB SERVICES DESCRIPITON LAGUAGE)
+XML 형식으로 웹서비스 구현 
+
+
+
+
+
+===================================================================================================
+
 1. 단위 기능 명세서
 설계 과정에서 단위 기능을 명세화한 문서
 - 추상화: 복잡한 시스템을 단순히 구현
